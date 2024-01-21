@@ -16,7 +16,7 @@ int main() {
         cout<<endl;
     }
 
-    return 0;
+   return 0;
 }
 
 //  star pattern # 10 -> sample output
