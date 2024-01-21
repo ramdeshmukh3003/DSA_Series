@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    // Write C++ code here
+   
     int n;
     cin>>n;
     for(int row=0;row<n;row++){
