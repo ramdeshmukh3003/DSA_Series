@@ -4,11 +4,11 @@ int main() {
     // Write C++ code here
     int n;
     cin>>n;
-    for(int row=0;row<n;row++){
-        for(int space=0;space<row;space++){
+    for(int rows=0;rows<n;rows++){
+        for(int space=0;space<rows;space++){
             cout<<" ";
         }
-        for(int col=0;col<n-row;col++){
+        for(int col=0;col<n-rows;col++){
             cout<<"*";
         }
         cout<<endl;
