@@ -1,0 +1,39 @@
+# Bit Manipulation — Useful Tricks for efficient coding.
+
+1. Create a number that has only set bit as k-th bit -- 1 << (k-1)
+
+2. Check whether k-th bit is set or not --
+
+    if (n & (1 << (k - 1)))
+      cout << "SET";
+3. Set k-th bit to 1 -- n | (1 << (k - 1))
+
+4. Clearing the k-th bit -- n & ~(1 << (k - 1))
+
+5. Toggling the k-th bit -- n ^ (1 << (k – 1))
+
+6. Check whether n is power of 2 or not
+
+    if(x && (!( x&(x-1) )))
+      cout<<"Power of 2";
+7. (x<<y) is equivalent to multiplying x with 2^y (2 raised to power y).
+
+8. (x>>y) is equivalent to dividing x with 2^y.
+
+9. Swapping two numbers
+
+    x = x ^ y
+    y = x ^ y
+    x = x ^ y
+10. Average of two numbers -- (x+y) >> 1
+
+11. Convert character ch from Upper to Lower case -- ch = ch | ' '
+
+12. Convert character ch from Lower to Upper case -- ch = ch & '_'
+
+13. Check if n is odd or even --
+
+    if(n & 1)
+      cout<<"odd"
+    else
+      cout<<"even";
