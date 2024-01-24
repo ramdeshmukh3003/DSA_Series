@@ -1,3 +1,11 @@
+// Q. Convert Binary to Decimal ?
+
+// Input: 1010
+// Output: 10
+// Explanation: the binary representation 1010 is representation of integer number 10 .
+
+// Code:-
+
 #include <iostream>
 #include<cmath>
 using namespace std;
