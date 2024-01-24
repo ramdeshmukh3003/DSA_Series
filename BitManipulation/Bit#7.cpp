@@ -1,3 +1,11 @@
+// Q. Set kth bit of integer n?
+
+// Input: n=8 k=2
+// Output: 12
+// Explanation: the binary representation of 8 is 1000 then index 2 we want to set then after setting bit number becomes 12.
+
+// Code:-
+
 #include<iostream>
 using namespace std;
 
