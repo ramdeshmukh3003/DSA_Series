@@ -21,27 +21,3 @@ int main()
     cout<<n<<endl;
     return 0;
 }
-
-
-#include <iostream>
-#include<cmath>
-using namespace std;
-
-int main()
-{
-    long long int n;
-    cin>>n;
-    long long int ans=0,i=0;
-    int bit;
-    while(n<0){
-        n=pow(2,16)+n;
-    }
-    while(n>0){
-        bit=n&1;
-        ans=ans+(bit*pow(10,i));
-        n=n>>1;
-        i++;
-    }
-    cout<<ans<<endl;
-    return 0;
-}
