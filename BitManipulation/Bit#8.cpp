@@ -1,3 +1,11 @@
+// Q. clear kth bit of integer n?
+
+// Input: n=8 k=3
+// Output: 0
+// Explanation: the binary representation of 8 is 1000 . after clearing the 4th bit the number becomes 0.
+
+// Code:-
+
 #include<bits/stdc++.h>>
 using namespace std;
 
