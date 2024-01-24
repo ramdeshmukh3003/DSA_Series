@@ -1,4 +1,12 @@
-#include<bits/stdc++.h>>
+// Q. find the number of bits to convert n to k ?
+
+// Input: n=8 , k=7
+// Output: 4
+// Explanation: the binary representation of n=8 is 1000 and k=7 is 0111, then the no of set bit is the answer i.e. 4.
+
+// code:
+
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
